@@ -1,0 +1,107 @@
+body{
+
+   background-color: thistle;
+}
+
+
+.page-custom-select{
+    background-color: turquoise;
+    width: 450px;
+    height: 300px;
+    margin-top:18%;
+    margin-left: 8%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.page-select{
+
+    width: 300px;
+    height: 30px;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+
+.text{
+
+margin-top: -35%;
+margin-left: 10%;
+font-size: 25px;
+color: blue;
+font-family: nunito,sans-serif;
+cursor: pointer;
+}
+
+.box{
+    background-color: blueviolet;
+    margin-top: -6%;
+    margin-left: 50%;
+    width: 650px;
+    text-align: center;
+    height: 550px;
+    color: white;
+    font-size: 35px;
+    border-radius: 4px;
+}
+
+.label{
+    width: 200px;
+    height: 26px;
+
+    font-size: 22px;
+text-align: center;
+}
+
+
+.label-one{
+    width: 200px;
+    height: 26px;
+font-size: 22px;
+text-align: center;
+}
+
+.label-two{
+
+    width: 200px;
+    height: 26px;
+
+    font-size: 22px;
+text-align: center;
+}
+
+.label-tree{
+
+    width: 200px;
+    height: 26px;
+
+    font-size: 22px;
+text-align: center;
+}
+
+.btn{
+    width: 200px;
+    height: 35px;
+    background-color: yellow;
+    margin-left: -4%;
+    margin-top: -4%;
+    color:black;
+    font-size: 16px;
+}
+
+
+.caixa{
+    width: 200px;
+    height: 26px;
+    background-color: white;
+    margin-left: 4%;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+

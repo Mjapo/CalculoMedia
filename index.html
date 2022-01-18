@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de media </title>
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="page-custom-select">
+        <select class="page-select">
+            <option class="one" value="0">Selecione a Matéria:</option>
+            <option  value="1">Lógica de Programação</option>
+            <option  value="2">Engenharia de Software</option>
+            <option  value="3">Banco de Dados</option>
+            <option   value="4">IOT</option>
+            <option   value="5">Automação de Testes</option>
+        </select>
+    </div>
+
+
+    <div class="text">
+
+        <h1 class="cont"> Faça sua <br>Media de nota</h1>
+    </div>
+    <div class="box">
+        <p>Media dos alunos</p>
+        <form class="" method="post">
+          <p>
+            <label>Nota 1
+              <input  class="label" type="number" id="nota01" value="" max="10">
+            </label>
+          </p>
+          <p>
+            <label>Nota 2
+              <input class="label-one" type="number" id="nota02" value="" max="10">
+            </label>
+          </p>
+          <p>
+            <label>Nota 3
+              <input class="label-two" type="number" id="nota03" value="" max="10">
+            </label>
+          </p>
+          <p>
+            <label>Nota 4
+              <input class="label-tree" type="number" id="nota04" value="" max="10">
+            </label>
+          </p>
+          <p>
+            <input  class="btn" type="button" id="enviar" value="Enviar">
+            <input  class="caixa"type="text" id="txtMedia" value="" readonly>
+          </p>
+
+          
+        </form>
+      </div>
+
+      <script src="index.js"></script>
+
+
+</body>
+</html>
